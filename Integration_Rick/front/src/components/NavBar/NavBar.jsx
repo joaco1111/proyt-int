@@ -1,14 +1,17 @@
 import React from "react";
-import SearchBar from "../SearchBar/SearchBar";
+import style from '../NavBar/NavBar.module.css';
 
-const NavBar = ({onSearch}) => {
+const NavBar = ({ brand }) => {
     
     return (
-        <NavBar class="navbar navbar-dark bg-dark">
-        <SearchBar onSearch={onSearch}/>
-      </NavBar>  
-    )
-}
+        <nav className="navbar navbar-dark bg-dark">
+      <div className={style.NavBar}>
+        <a className="navbar-brand text-uppercase" href="/">
+          {brand}
+        </a>
+      </div>
+    </nav> 
+    );
+  }
 
-    
 export default NavBar;

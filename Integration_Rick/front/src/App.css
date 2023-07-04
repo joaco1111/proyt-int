@@ -1,4 +1,13 @@
-
 html {
-    background-image: url('./components/Card/fotos/fondo.ofi.rick.png')
+    background-image: url('./components/fotos/fondo.rick.and.morty.png')
+}
+button {
+    background-color: rgba(145, 255, 0, 0.796);
+    border-radius: 10px;
+}
+nav{
+    background-color: black;
+}
+.titel {
+    text-emphasis-color : rgb(132, 255, 1);
 }
