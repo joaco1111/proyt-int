@@ -1,4 +1,4 @@
-import style from'./App.css';
+import style from './App.css';
 import React, { useEffect, useState } from 'react';
 import Navbar from './components/NavBar/NavBar.jsx';
 import Card from './components/Card/Card.jsx';
